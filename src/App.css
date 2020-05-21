@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	background-color: #ffffff;
+	    font-family: 'Roboto', sans-serif;
+}
+#root {
+	    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+.app {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+    max-width: 1024px;
+    text-align: center;
+}
+a,
+a:visited,
+a:focus {
+	color:#9933ff;
+	text-decoration:none;
+	transition: 0.3s;
+}
+a:hover {
+	color:#b366ff;
+}
+ul {
+	background-color: #e5b8f4;
+	border:1px solid #ffffff;
+	padding:40px 0px;
+}
+ul li {
+	list-style-type: "→";
+	color:#ffffff;
+	font-size:22px;
+	margin-left:40px;
+	line-height:35px;
+}
+h2 {
+	text-align:center;
+}
+.repoName {
+    text-align: left;
+    padding: 2px 4px;
+}
+.redText {
+    composes: repoName;
+    color: red;
+}
